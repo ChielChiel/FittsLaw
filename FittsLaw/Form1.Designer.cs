@@ -1,6 +1,6 @@
 ﻿namespace FittsLaw
 {
-    partial class Form1
+    partial class FittsBox
     {
         /// <summary>
         /// Required designer variable.
@@ -52,7 +52,7 @@
             this.ReactButton.UseVisualStyleBackColor = true;
             this.ReactButton.Click += new System.EventHandler(this.ReactButton_Click);
             // 
-            // Form1
+            // FittsBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -60,8 +60,10 @@
             this.ClientSize = new System.Drawing.Size(2007, 1330);
             this.Controls.Add(this.ReactButton);
             this.Controls.Add(this.StartButton);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MinimizeBox = false;
+            this.Name = "FittsBox";
+            this.Text = "Fitts\' Law";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
